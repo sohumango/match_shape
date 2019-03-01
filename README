@@ -1,0 +1,16 @@
+CMake to create xcode project under Mac OSX
+and support opencv
+
+1. install opencv
+    brew install opencv3
+2. install CMake
+    brew install cmake
+3. confirm opencv path by pkg-config
+    pkg-config --cflags opencv
+    pkg-config --libs opencv
+4. make
+    ./mk.sh
+
+5. clean
+    ./clean.sh
+    
